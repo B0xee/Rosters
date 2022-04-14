@@ -1,0 +1,103 @@
+html, body  {
+    background-image: linear-gradient(to top right, mistyrose, oldlace, white);
+    height: 100%;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 55px;
+    text-align: center;
+    height: 35%;
+}
+
+h2  {
+    font-family: Montserrat;
+    font-size: 24px;
+    text-align: center;
+}
+
+input   {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:18px;
+    font-family: Montserrat;
+}
+
+.btn {
+    background-color: whitesmoke;
+    padding: 14px 28px;
+    font-family: Montserrat;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 800px;
+    height: 150px;
+    transition-duration:0.4s
+}
+
+.btn:hover {
+    background-color: transparent;
+    color:whitesmoke
+}
+
+.side-bar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: papayawhip;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+.side-bar:hover {
+    color: aqua;
+}
+
+.openbtn    {
+    font-family: Montserrat;
+    border: transparent;
+    font-size: 24px;
+    background: transparent;
+}
+
+.openbtn:hover  {
+    color: white;
+}
+
+.side-bar .closebtn  {
+    position:absolute;
+    top:8px;
+    border: transparent;
+    right:10px;
+    font-size:24px;
+    background: transparent;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+.side-bar .closebtn:hover   {
+    color: white;
+}
+
+.side-bar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    width: 200px;
+    margin: auto;   
+}
+
+.side-bar a:hover  {
+    color: white;
+}
+
