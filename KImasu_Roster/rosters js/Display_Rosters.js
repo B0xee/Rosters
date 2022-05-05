@@ -9,3 +9,17 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
+
+function numVal() {
+  const userNum = document.getElementById("number");
+  for (i=0; i<=people.length;i++)  {
+    if (userNum == people[i]) {
+      alert("hi")
+      return true;
+    }
+    else  {
+      alert ("Unregistered number");
+      return false;
+    }
+  }
+}

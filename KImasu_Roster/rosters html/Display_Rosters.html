@@ -1,6 +1,7 @@
 <!DOCTYPE html>
+
     <header>
-        <link rel="stylesheet" href="C:\Users\Henry\Documents\Projects\Projects\KImasu_Roster\rosters html\styles.css">
+        <link rel="stylesheet" href="C:\Users\Henry\Documents\Projects\KImasu_Roster\rosters html\styles.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -25,15 +26,17 @@
             <form class="form-container">
                 <button class="closebtn" onclick="closeForm()"><i class="fa fa-close"></i></button>
                 <h1>Who Are You</h1>
-                <input type="text" placeholder="Phone Number" name="number" required>
+                <input type="text" id="number" placeholder="Your Number" name="number" required>
+                <input type="submit" value="Submit" onclick="numVal()">
             </form>
         </div>
 
 <!-- Main page -->
         <h1></h1>
-        <button class="btn current" name= "current-roster" id="current-roster">Current Roster</button>
-        <button class="btn next" name="next-roster" id="next-roster">Next Roster</button>
+        <h2></h2>
+        <button class="btn " name= "current-roster" id="current-roster">Current Roster</button>
+        <button class="btn " name="next-roster" id="next-roster">Next Roster</button>
 
-    <script type="" src="C:\Users\Henry\Documents\Projects\Projects\KImasu_Roster\rosters js\Display_Rosters.js"></script>
-    <script type="" src="C:\Users\Henry\Documents\Projects\Projects\KImasu_Roster\rosters js\Sidebar.js"></script>
+    <script type="" src="C:\Users\Henry\Documents\Projects\KImasu_Roster\rosters js\Display_Rosters.js"></script>
+    <script type="" src="C:\Users\Henry\Documents\Projects\KImasu_Roster\rosters js\Sidebar.js"></script>
     </body>

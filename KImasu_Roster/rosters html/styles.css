@@ -1,13 +1,14 @@
-html, body  {
+html  {
     background-image: linear-gradient(to top right, rebeccapurple, papayawhip, white);
-    height: 100%;    
+    height: 100%;
 }
-/* Ask for a background */
+
 h1 {
     font-family: Montserrat;
     font-size: 55px;
     text-align: center;
     height: 35%;
+    margin-bottom: 20%;
 }
 h2  {
     font-family: Montserrat;
@@ -22,6 +23,8 @@ input   {
     font-family: Montserrat;
 }
 /*Purple gradient background - darker buttons - white letters*/
+
+
 .btn {
     background-color: whitesmoke;
     padding: 14px 28px;
@@ -36,6 +39,8 @@ input   {
     height: 150px;
     transition-duration:0.4s
 }
+
+
 .btn:hover {
     background-color: transparent;
     color:whitesmoke
@@ -107,7 +112,7 @@ input   {
 /*Add style to form container*/
 .form-container {
     width: 600px;
-    height:400px;
+    height:450px;
     align-items:center;
     opacity:0.5;
     padding: 10px;
@@ -134,4 +139,33 @@ input   {
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
+}
+
+.mopen  {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    border: transparent;
+    background: transparent;
+    font-size: 36px;
+}
+
+.mopen:hover  {
+    color: white;
+    outline: black;
+}
+
+.mbutton {
+    background-color: whitesmoke;
+    padding: 14px 28px;
+    font-family: Montserrat;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 75px;
+    transition-duration:0.4s
 }
