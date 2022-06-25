@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-    <header>
+    <header lang="en">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="C:\Users\Henry\Documents\Projects\KImasu_Roster\rosters html\styles.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -8,20 +9,21 @@
         <title>Display_Rosters</title>
     </header>
 
-    <body>
-<!-- Side bar things-->
+    <body onload="checkCookie()">
+        
+<!-- Side bar things -->
         <div id="mySidebar" class="side-bar">
             <button class="closebtn" onclick="closeNav()"><i class="fa fa-close"></i></button>
-            <a class="mobileValidation" href="#" onclick="openForm()">Request a swap</a>
-            <a class="mobileValidation" href="#" onclick="openForm()">Request a cover</a>
-            <a class="mobileValidation" href="#" onclick="openForm()">Request a day off</a>
-            <a class="mobileValidation" href="#" onclick="openForm()">Cover a shift</a>
+            <a class="" href="#" onclick="openForm()">Request a swap</a>
+            <a class="" href="#" onclick="openForm()">Request a cover</a>
+            <a class="" href="#" onclick="openForm()">Request a day off</a>
+            <a class="" href="#" onclick="openForm()">Cover a shift</a>
         </div>
         <div id="main">
             <button class="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button>
         </div>
+
 <!--Ask for number-->
-        
         <div class="form-popup" id="numberForm">
             <form class="form-container">
                 <button class="closebtn" onclick="closeForm()"><i class="fa fa-close"></i></button>
